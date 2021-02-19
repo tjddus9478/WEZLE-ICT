@@ -1,0 +1,39 @@
+* {
+ margin: 0;
+ padding: 0;
+
+}
+a{
+ text-decoration:  none;
+ color: inherit;
+}
+
+.board_list_head,
+.board_list_body .item {
+ font-size:  0;
+}
+
+.board_list_head > div
+.board_list_body .item > div {
+ display: inline-block;
+ background: yellow;
+ text-align: center;
+ font-size: 14px;
+}
+
+.board_list_num{
+ width: 10%;
+}
+.board_list_tit{
+ width: 55%;
+}
+.board_list_board_list_body .tit{
+ text-align: left;
+}
+
+.board_list_writer{
+ width: 10%;
+}
+.board_list_date{
+ width: 15%;
+}

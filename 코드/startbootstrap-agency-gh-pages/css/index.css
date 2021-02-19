@@ -1,0 +1,174 @@
+.header {
+    width: 200px;
+    text-align: center;
+    margin: 2px 0px;
+}
+
+.carousel_box {
+    width: 1890px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.carousel_img {
+    float: left;
+}
+
+.swiper-container {
+	width:1910px;
+	height:550px;
+  margin-top: 85px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+	align-items:center; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+}
+
+.carousel_img > img {
+    width: 1920px;
+    height: 550px;
+}
+
+.carouselBtn {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.carouselBtn > button{
+    margin: 10px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.carouselBtn button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    transition: background-color 0.5s ease;
+}
+
+# {
+  margin:  0;
+  padding:  0;
+}
+
+a{
+  text-decoration:  none;
+  color: inherit;
+}
+
+.board_list_wrap {
+  padding: 50px;
+}
+
+.board_list_head,
+.board_list_body .item {
+  font-size: 0;
+}
+
+.board_list_head,
+.board_list_body .item {
+  padding:  10px 0;
+}
+
+.board_list_head {
+  border-top:  2px solid #343a40;
+  border-bottom:  1px solid #ccc;
+}
+
+.board_list_body .item {
+  border-bottom:  1px solid #ccc;
+}
+
+.board_list_head > div,
+.board_list_body .item > div {
+  display: inline-block;
+  text-align: center;
+  font-size:  15px;
+
+}
+
+.board_list_head > div {
+  font-weight:
+}
+
+.board_list .num{
+  width: 10%;
+}
+
+.board_list .tit{
+  width: 55%;
+}
+
+.board_list_body div.tit {
+  text-align: left;
+}
+.board_list_body div.tit a:hover {
+  text-decoration: underline;
+}
+
+.board_list .writer{
+  width: 10%;
+}
+
+.board_list .date{
+  width: 15%;
+}
+
+/*paging*/
+.paging {
+  margin-top:  30px;
+  text-align:  center;
+  font-size: 18px;
+}
+
+.paging a {
+  display:  inline-block;
+  vertical-align: middle;
+}
+
+.paging a.bt {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+
+}
+
+.paging a.bt:hover {
+  background-color:  #999;
+}
+
+.paging a.first{
+  margin-bottom: 1px;
+  background-position: 10px -40px;
+}
+.paging a.prev{
+  margin-bottom: 1px;
+  background-position: 10px -40px;
+}
+.paging a.next{
+  margin-bottom: 1px;
+  background-position: 10px -40px;
+}
+.paging a.last{
+  margin-bottom: 1px;
+  background-position: 10px -40px;
+}
+.paging a.num {
+  margin: 0;
+
+}
+.paging a.num.on {
+  color: #fed136;
+}
+.paging a.num:hover {
+  text-decoration: underline;
+}
